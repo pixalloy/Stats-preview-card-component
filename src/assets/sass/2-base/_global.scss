@@ -1,21 +1,37 @@
 *,
 *::after,
 *::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
+	line-height: 1.6;
+	height: 100%;
+
+	@media (max-width: 940px) {
+		line-height: 1.4;
+	}
 }
 
 body {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: $primary-color-dark-blue;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+
+	@media (max-width: 680px) {
+		padding: 2rem;
+	}
 }
 
 *:link,
 *:visited {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
