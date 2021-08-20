@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/stats-preview-card-component-using-sass-and-bem-ioYGVzN62)
+- Live Site URL: [https://pixalloy.github.io/Stats-preview-card-component/](https://your-live-site-url.com)
 
 ## My process
 
